@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" media="screen, print">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatura en Chile</title>
+
+
+
+</head>
+
+<body>
+    <div class="sup">
+        <img src="logo.jpg" class="logo">
+        <h1 class="tit">Dashboard Temperatura en Chile</h1>
+    </div>
+
+    <div class="side">
+        <h3 class="tit2">Temperaturas</h3>
+        <p class="intro"> La media anual
+            es de 14º centígrados. La temperatura
+            del año se vive de manera diferente en cada parte
+            del país.
+            <br>
+            <br>
+
+            Las barras del gráfico en color naranjo son temperaturas
+            sobre los 0° grados celsius y las barras azules bajo los
+            0° grados celsius.
+            <br>
+            <br>
+
+            Para la temperatura actual hacer clic en el botón
+        </p>
+
+
+        <center>
+
+            <button class="btn" onClick="window.location.reload();">Actualizar Datos</button>
+
+
+        </center>
+
+        <br>
+        <div class="footer">
+            Made with ❤️ by Sergio Montero
+        </div>
+
+
+    </div>
+
+
+    <div class="content">
+        <canvas id="myChart"></canvas>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js" type="module"></script>
+
+</body>
+
+</html>

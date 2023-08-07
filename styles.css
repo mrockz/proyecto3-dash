@@ -1,0 +1,80 @@
+.sup {
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    background-color: #da6124;
+    border-bottom: 1px #e3e3e3 solid;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.tit {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    margin-top: 30px;
+    float: left;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.side {
+    position: relative;
+    display: block;
+    float: left;
+    width: 20%;
+    height: 100%;
+    border-right: 1px #e3e3e3 solid;
+
+}
+
+.tit2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    float: left;
+    color: #565656;
+    font-size: 15px;
+}
+
+.btn {
+    background-color: #da6124;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 6px;
+    border: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.intro {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;
+    height: 200px;
+    overflow-x: auto;
+    font-size: 12px;
+    color: #666;
+}
+
+.content {
+    position: relative !important;
+    display: block;
+    float: right;
+    width: 75%;
+    height: 100%;
+
+}
+
+.footer {
+    font-size: 0.5em;
+    text-align: center;
+    color: #000;
+}
