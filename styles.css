@@ -41,7 +41,7 @@
     display: inline;
     float: left;
     color: #565656;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .btn {
@@ -52,7 +52,7 @@
     border: none;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .intro {
@@ -60,7 +60,7 @@
     width: 90%;
     height: 200px;
     overflow-x: auto;
-    font-size: 12px;
+    font-size: 15px;
     color: #666;
 }
 

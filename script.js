@@ -38,8 +38,8 @@ async function renderData() {
                 label: 'Temperatura',
                 data: temperatures,     // aqui debe ir Temperatura (magnitud)
                 borderWidth: 1,
-                backgroundColor: backgroundColors,   //'#A2D69A',
-                borderColor: bordersColors //'#dddddd'
+                backgroundColor: backgroundColors,   
+                borderColor: bordersColors 
             }]
         },
         options: {
